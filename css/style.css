@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.landing {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing {
+text-align: center;
+}
+
+.landing h1 {
+    font-size: 70px;
+}
+
+.landing p {
+    font-size: 25px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+.carousel {
+    height: 400px;
+    object-fit: cover;
+}
+.carousel {
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.carousel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#game {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    grid-template-rows: repeat(10, 40px);
+    justify-content: center;
+    margin: 20px auto 40px;
+}
+
+.griglia button {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+}
+
+.griglia button {
+    border: 1px solid #333;
+    background-color: #87ceeb;
+    font-size: 20px;
+}
+
+.griglia button:hover {
+    background-color: #5dade2;
+}
+
+#game h2 {
+    margin-top: 30px;
+}
